@@ -1,3 +1,22 @@
-img {
-    width: 20px;
+#image {
+    width: 100%;
+}
+
+.ul {
+    background-color: green;
+    color: red;
+}
+
+li {
+    color: red;
+}
+
+ol {
+    color: orange;
+    background-color: black;
+}
+
+div {
+    background-image: url(Images/cat-1.jpg);
+    font-size: large;
 }
