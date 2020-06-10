@@ -1,0 +1,15 @@
+h1 {
+    font-family: Arial;
+    color: red;
+    background-color: green;
+}
+
+#super {
+    color: green;
+    background-color: red;
+}
+
+hr {
+    background-color: blue;
+    height: 50px;
+}
