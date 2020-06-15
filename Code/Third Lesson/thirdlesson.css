@@ -1,0 +1,50 @@
+.img1 {
+    width: 100%;
+}
+
+.contaner {
+    position: relative;
+    width: 90%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 250%;
+    color: red;
+}
+
+.left {
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+}
+
+.center {
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+    padding: 1px;
+}
+
+.right {
+    top: 5%;
+    right: 25%;
+    position: absolute;
+}
+
+.right:hover {
+    text-shadow: 1px 2px 6px orange;
+    transform: scale(2);
+}
+
+.img2:hover {
+    transform: scale(3);
+    transition: 5s ease;
+}
+
+.img2 {
+    transition: 5s ease;
+}
