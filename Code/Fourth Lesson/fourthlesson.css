@@ -1,0 +1,45 @@
+caption {
+    font-size: larger;
+}
+
+tr {
+    font-size: large;
+    border: 5px solid;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.4s ease;
+}
+
+table {
+    border: 3px solid black;
+    border-spacing: 5px;
+}
+
+td:hover {
+    border: 3px solid black;
+    padding: 8px;
+    transition: 0.4 s ease;
+}
+
+tr:nth-child(1) {
+    background-color: red;
+}
+
+tr:nth-child(2) {
+    background-color: cyan;
+}
+
+tr:nth-child(3) {
+    background-color: lawngreen;
+}
+
+tr:nth-child(4) {
+    background-color: blue;
+}
+
+td:nth-child(3) {
+    background-color: yellow;
+}
