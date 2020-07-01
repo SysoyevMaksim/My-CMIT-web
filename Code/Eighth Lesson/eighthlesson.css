@@ -1,0 +1,21 @@
+#superbutton {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    height: 35px;
+    background-color: green;
+    color: red;
+    border: 4px black solid;
+}
+
+.changebutton {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(142, 239, 252);
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    outline: none;
+}
