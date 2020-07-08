@@ -1,0 +1,14 @@
+#counterLabel{
+    margin-left: 100px;
+}
+
+.changeButton {
+    height: 375px;
+    width: 375px;
+    background-color: rgb(142, 239, 252);
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    outline: none;
+}
