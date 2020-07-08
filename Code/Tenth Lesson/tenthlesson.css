@@ -1,0 +1,28 @@
+.calculator_button{
+    width: 100px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+    font-size: 40pt;
+    outline: none;
+}
+
+#result{
+    font-size: 40pt;
+    text-align: right;
+}
+
+p{
+    margin: 1px;
+}
+#zero{
+    width: 200px;
+}
+
+#calculate{
+    position: absolute;
+    left: 50px;
+    width: 300px;
+}
