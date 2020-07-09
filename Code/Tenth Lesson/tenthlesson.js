@@ -5,6 +5,7 @@ let is_plus = false;
 let is_minus = false;
 let is_multiply = false;
 let is_divide = false;
+let calculated = false;
 
 function add_number(number) {
     const result = document.getElementById("result");
@@ -25,6 +26,10 @@ function delete_number() {
 
 function calculate() {
     const result = document.getElementById("result");
+    console.log(result.value);
+    console.log(count);
+    console.log(now);
+    console.log(":");
     if (count !== 0) {
         if (is_plus){
             count += now;
@@ -43,10 +48,17 @@ function calculate() {
     } else {
         result.value = now;
     }
+    console.log(result.value);
+    console.log(count);
+    console.log(now);
+    console.log(";");
+    calculated = true;
 }
 
 function plus() {
-    calculate();
+    if (!calculated) {
+        calculate();
+    }
     count = now;
     now = 0;
     is_divide = false;
@@ -54,10 +66,13 @@ function plus() {
     is_multiply = false;
     is_plus = true;
     zero();
+    calculated = false;
 }
 
 function minus() {
-    calculate();
+    if (!calculated) {
+        calculate();
+    }
     count = now;
     now = 0;
     is_divide = false;
@@ -65,10 +80,13 @@ function minus() {
     is_multiply = false;
     is_plus = false;
     zero();
+    calculated = false;
 }
 
 function divide() {
-    calculate();
+    if (!calculated) {
+        calculate();
+    }
     count = now;
     now = 0;
     is_divide = true;
@@ -76,10 +94,13 @@ function divide() {
     is_multiply = false;
     is_plus = false;
     zero();
+    calculated = false;
 }
 
 function multiply() {
-    calculate();
+    if (!calculated) {
+        calculate();
+    }
     count = now;
     now = 0;
     is_divide = false;
@@ -87,6 +108,7 @@ function multiply() {
     is_multiply = true;
     is_plus = false;
     zero();
+    calculated = false;
 }
 
 function zero() {
