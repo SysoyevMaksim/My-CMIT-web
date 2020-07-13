@@ -14,15 +14,12 @@
     text-align: right;
 }
 
-p{
-    margin: 1px;
-}
 #zero{
-    width: 200px;
+    width: 203px;
 }
 
 #calculate{
     position: absolute;
-    left: 50px;
-    width: 300px;
+    left: 116px;
+    width: 302px;
 }
