@@ -1,0 +1,29 @@
+#column1 {
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    height: 300px;
+    width: 100px;
+}
+
+#column2 {
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    height: 300px;
+    width: 100px;
+}
+
+#winnerBlock{
+    background-color: lightgreen;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: none;
+    font-size: 30pt;
+    left: 125px;
+    top: 50px;
+}
