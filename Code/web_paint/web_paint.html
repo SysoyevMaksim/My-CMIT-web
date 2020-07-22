@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Paint</title>
+    <link rel="stylesheet" href="web_paint.css">
+</head>
+<body>
+<div id="circles_base">
+    <button id="red" class="circle" onclick="change_color(this.id)"></button>
+    <button id="blue" class="circle" onclick="change_color(this.id)"></button>
+    <button id="green" class="circle" onclick="change_color(this.id)"></button>
+    <button id="yellow" class="circle" onclick="change_color(this.id)"></button>
+    <button id="deepskyblue" class="circle" onclick="change_color(this.id)"></button>
+    <button id="purple" class="circle" onclick="change_color(this.id)"></button>
+    <button id="white" class="circle" onclick="change_color(this.id)"></button>
+</div>
+<br>
+<canvas id="canvas" onmousedown="draw_begin() " width="500px" height="500px"></canvas>
+<script src="web_paint.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.circle {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+#circles_base {
+    width: 1000%;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+#red {
+    background: red;
+    border: red;
+}
+
+#blue {
+    background: blue;
+    border: blue;
+}
+
+#green {
+    background: green;
+    border: green;
+}
+
+#yellow {
+    background: yellow;
+    border: yellow;
+}
+
+#deepskyblue {
+    background: deepskyblue;
+    border: deepskyblue;
+}
+
+#purple {
+    background: purple;
+    border: purple;
+}
+
+#white {
+    background: white;
+}
+
+#canvas {
+    position: absolute;
+    left: 150px;
+    border: black 3px solid;
+}
