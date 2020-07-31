@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Random</title>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet"
+          type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="web_random.css">
+</head>
+<body>
+<div id="main">
+    <h1 id="result_name">Случайное число:</h1>
+    <div id="result"></div>
+    <button id="generate" onclick="generate()" onmousedown="button_function1()" onmouseup="button_function2()"
+            onmouseout="button_function2()"></button>
+    <p>новую последовательность из</p>
+    <div id="slidecontainer">
+        <div id="slider"></div>
+    </div>
+    <p><span id="number">1</span> <span id="number_text"> случайного числа</span></p>
+    <div>
+        <input type="radio" id="range"
+               name="variant" value="из диапазона" checked=checked onclick="display_range()">
+        <label for="range">из диапазона</label>
+        <span> или </span>
+        <input type="radio" id="list"
+               name="variant" value="из списка" onclick="display_list()">
+        <label for="list">из списка</label>
+        <div id="our_range">
+            от <input type="number" id="begin" value=1> до <input type="number" id="end" value=100>
+        </div>
+        <div id="our_list">
+            <textarea autocomplete="off" maxlength="8388607" id="our_list_value"
+                      placeholder="укажите список целых чисел"></textarea>
+        </div>
+    </div>
+    <input type="checkbox" name="reaped" id="reaped">
+    <label for="reaped">исключить повторения</label>
+</div>
+</body>
+<script src="web_random.js"></script>
+<script>generate();</script>
+</html>

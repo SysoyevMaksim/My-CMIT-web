@@ -1,0 +1,54 @@
+#slidecontainer {
+    width: 100%;
+}
+
+#slider {
+    width: 260px;
+    height: 11px;
+    position: center;
+    margin: 8px auto 5px;
+}
+
+#main {
+    text-align: center;
+}
+
+#slider a.ui-slider-handle {
+    background: url("Images/slider_hand.png") top left no-repeat;
+    border: none;
+    position: absolute;
+    top: -6px;
+    width: 22px;
+    height: 24px;
+    margin-left: -11px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.ui-slider.ui-slider-horizontal {
+    background-image: url("Images/slider_range.png");
+}
+
+#generate {
+    background: url("Images/but_sm_bg.png") top left no-repeat;
+    width: 280px;
+    height: 80px;
+    outline: none;
+    border: none;
+}
+
+#result {
+    font-size: 50px;
+    max-width: 650px;
+    text-align: center;
+    margin: 8px auto 5px;
+}
+
+#our_list {
+    display: none;
+}
+
+#our_list_value {
+    width: 250px;
+    height: 64px;
+}
