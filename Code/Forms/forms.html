@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Forms</title>
 </head>
 <body>
-$END$
+<form onsubmit="submitAction(this)" name="our_form">
+    <label for="TextInput">Введите имя</label><br>
+    <input type="text" id="TextInput" name="TextInput"><br>
+    <label>
+        <input type="radio" name="variants">
+        Интернета не будет
+    </label> <br>
+    <label>
+        <input type="radio" name="variants">
+        Интернет будет
+    </label> <br>
+    <label>
+        <input type="radio" name="variants">
+        Интернет будет танцевать
+    </label> <br>
+    <label for="NumberInput">Введите число</label><br>
+    <input type="number" id="NumberInput"><br>
+    <label>
+        <input type="radio" name="variants2">
+        Это всё интересно
+    </label> <br>
+    <label>
+        <input type="radio" name="variants2">
+        Это всё очень интересно
+    </label> <br>
+    <label>
+        <input type="radio" name="variants2">
+        Это всё не интерестно
+    </label> <br>
+    <input type="submit" name="submit">
+</form>
 </body>
+<script src="forms.js"></script>
 </html>
